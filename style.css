@@ -1,5 +1,120 @@
+#main
+{
+    background-color: #e4e4e4;
+    height: 100%;
+}
+
 #title
 {
+    color: #291B39;
     font-family: 'Shadows Into Light', cursive;
     font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.img-responsive
+{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#img-caption
+{
+    color: #291B39;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#tribute-info
+{
+    background-color: #291B39;
+    clear: both;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+a
+{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+p
+{
+    color: #d3d3d3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+#quote-and-video
+{
+    overflow: auto;
+}
+
+#poly-quote
+{
+    color: #291B39;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.capitalize-span
+{
+    text-transform: uppercase;
+}
+
+cite
+{
+    color: #291B39;
+    font-family: 'Open Sans', sans-serif;
+}
+
+iframe
+{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#footer, .content:after 
+{
+    height: 75px; 
+}
+
+#footer
+{
+    background-color: #291B39;
+    padding-top: 20px;
+}
+
+#footer p
+{
+    font-size: 1em;
+    text-align: center;
+}
+
+@media (min-width:960px)
+{
+    #quote-block
+    {
+        float: left;
+        padding-left: 50px;
+        width: 50%;
+    }
+
+    #yt-video
+    {
+        float: right;
+        margin-top: 48px;
+        width: 45%;
+    }
 }
